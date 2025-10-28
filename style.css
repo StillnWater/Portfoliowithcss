@@ -1,0 +1,148 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #004aad; /* Deep Blue */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: sticky; /* Sticky Header */
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #ffd700; 
+}
+
+#hero {
+  background-color: #e3f2fd;
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 3px solid #004aad;
+}
+
+#about {
+  background: #ffffff;
+  padding: 40px 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+#about img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 50%;
+  border: 3px solid #004aad;
+}
+
+#projects {
+  background: #f0f8ff;
+  padding: 40px 20px;
+}
+
+#skills {
+  background: #ffffff;
+  padding: 40px 20px;
+}
+
+#skills table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+#skills th, #skills td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+#skills th {
+  background-color: #004aad;
+  color: #fff;
+}
+
+#contact {
+  background-color: #e3f2fd;
+  padding: 40px 20px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+button {
+  background-color: #004aad;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003580;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #004aad;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: bold;
+  display: none; 
+}
+
+#back-to-top:hover {
+  background-color: #003580;
+}
+
+footer {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  margin-top: 30px;
+}
+
+hr {
+  border: 1px solid #ccc;
+  margin: 30px 0;
+}
